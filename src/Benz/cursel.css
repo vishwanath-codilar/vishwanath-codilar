@@ -6,7 +6,7 @@
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    width: 100%;
+   
 }
 .carousel-open{
     display: none;
@@ -131,7 +131,7 @@
 .s-text{
     display: none;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 780px){
     .icons{
         position: fixed;
         display: none;

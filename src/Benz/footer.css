@@ -4,6 +4,7 @@
   font-size: 13px;
   line-height: 25px;
   padding-left: 40px;
+  padding-right: 20px;
 }
 .frow1 .h1{
   
@@ -34,17 +35,17 @@
 .frow3 .fcol{
   flex: 25%;
   justify-content: start;
-  
+  padding-bottom: 20px;
 }
 .frow3 ol {
   list-style: none;
   padding-left: 0%;
-padding-top: 20px;
+padding-top: 30px;
 }
-.frow3 hr{
- height:  2px;
+.frow3 .hr1{
+ border: 0.01px solid rgb(128, 125, 125);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 780px){
   .frow3{
   
     display: flex;

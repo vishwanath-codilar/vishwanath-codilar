@@ -21,7 +21,7 @@
 .nav-bar .logo:hover{
     box-shadow: 2px blue;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 780px){
     .nav-bar .logo{
         margin-bottom: 13px;
         

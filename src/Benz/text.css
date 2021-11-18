@@ -51,7 +51,10 @@
     height: 154px;
 }
 .links .l{
-    margin-right: 5px;
+    margin-right: 15px;
+}
+.links .col1{
+    margin-right: 14px;
 }
 .links span:hover{
     border-bottom:8px solid  rgb(17, 140, 189);
@@ -90,19 +93,52 @@
         margin-top: 40px;
         background-color: black;
         display: flex ;
-        flex-direction: column ;
-        width: 256px;
-    
-        margin-left: 90px;
+        flex-direction: column;
+         width: 256px;
+        
+        margin-left: 20%;
          
          
     }
+    .links .l{
+        margin-right: 5px;
+    }
+    .links .col1{
+        margin-right: 4px;
+    }
+    .links .l{
+        display: flex;
+    }
     .links img{
-        width: 94px;
-        height: 84px;
+        width: 124px;
+        height: 94px;
     }
     
     .btn button{
         width: 250px ;
     }
+}
+@media  (min-width: 750px) and (max-width: 1020px){
+    .links {
+    
+        margin-top: 40px;
+        background-color: black;
+        display: flex ;
+        flex-direction: row;
+              
+    }
+    .links .l{
+        margin-right: 10px;
+    }
+    .links .col1{
+        margin-right: 9px;
+    }
+    .links .l{
+        display: flex;
+    }
+    .links img{
+        width: 200px;
+        height: 94px;
+    }
+    
 }
