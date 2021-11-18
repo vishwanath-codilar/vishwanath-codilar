@@ -10,6 +10,8 @@ function Container(){
         <Header />
         <Carousel />
         <Text />
+        <Gellery />
+        <Footer />
         </div>
     );
 }

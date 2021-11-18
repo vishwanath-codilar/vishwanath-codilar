@@ -91,16 +91,15 @@
         background-color: black;
         display: flex ;
         flex-direction: column ;
-        padding-left: 20px;
+        width: 256px;
+    
+        margin-left: 90px;
          
          
-    }
-    .links .l{
-        margin-right: 15px;
     }
     .links img{
-        width: 110px;
-        height: 94px;
+        width: 94px;
+        height: 84px;
     }
     
     .btn button{

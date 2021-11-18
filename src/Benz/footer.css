@@ -45,6 +45,21 @@ padding-top: 20px;
  height:  2px;
 }
 @media screen and (max-width: 600px){
-
-
+  .frow3{
+  
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+   
+  
+  }
+  .frow1{
+    display: flex;
+   flex-direction: column;  }
+   .frow1 .h1{
+  
+    margin-left: 0%;
+   
+  }
 }
