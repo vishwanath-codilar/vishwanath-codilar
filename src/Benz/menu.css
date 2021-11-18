@@ -1,0 +1,147 @@
+.right{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.right .upper{
+     color: white;
+     font-size: 15px;
+     font-family: lucida, Arial, Helvetica, sans-serif;
+     padding-left: 502px;
+     padding-top: 10px;
+}
+.upper .d{
+    margin-left: 10px;
+}
+.right .upper  img{
+    width: 17px;
+    height: 16px;
+    padding-right: 10px;
+}
+.right .lower{
+    margin-top: 27px;
+    display: flex;
+    color: white;
+    
+}
+
+.right .lower  li{
+    display: inline-block ;
+    list-style: none;
+        padding-right: 30px;
+        text-decoration: none;
+        
+}
+.lower a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: lucida, Arial, Helvetica, sans-serif;
+}
+.lower img{
+    width: 15px;
+    height: 15px;
+}
+.checkbtn{
+    float: right;
+    cursor: pointer;
+    display:none;
+    font-size: 15px;
+    font-family: lucida, Arial, Helvetica, sans-serif;
+    
+}
+.img2{
+    display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width: 600px)
+{    
+     .search-box{
+         color: white;
+         display: flex;
+         justify-content: center;
+     }
+     .s-text{
+         display: block;
+         font-size: 22px;
+         margin-left: 10px;
+         font-family: lucida, Arial, Helvetica, sans-serif;
+         color: white;
+    } 
+     
+     
+      .lower img{
+          width: 17px;
+          height: 22px;
+      }
+      .img2{
+       display: block;
+       margin-right: 15px;
+       
+       
+    }
+   
+    .checkbtn{
+        display: block;
+    }
+    .lower ul{
+        position: fixed;
+        z-index: 9999;
+        overflow: scroll; 
+        width: 100%;
+        height: 100%;
+        background: black;
+        top: 84px;
+        right: -120%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.9s;
+        
+    }
+    .lower ul li {
+        display: block;
+        margin-top: 25px;
+        
+    }
+    .lower a{
+        font-size: 22px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .policy{
+        display: none;
+    }
+    
+    .d{
+        margin-left: 5px;
+    }
+    .right .upper{
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    .lower{
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+    
+    }
+    
+    .btn button{
+        width: 420px;
+    }
+    
+    .l img{
+        width: 174px;
+        height: 54px;
+    }
+    .l ul li{
+        margin-left: 20px;
+    }
+}

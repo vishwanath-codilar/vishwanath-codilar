@@ -1,0 +1,11 @@
+.nav-bar
+{
+    background-color: black;
+    display: flex;
+    height: 100px;    
+    width: 100%;
+    position: ;
+    z-index: 9999;
+    overflow: hidden;
+}
+
