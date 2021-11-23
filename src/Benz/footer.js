@@ -1,9 +1,13 @@
-import Amg from './images/smart.jpg';
+import Smart from './images/smart.jpg';
 import Daimler from './images/daimler.jpg';
-import Smart from './images/amg.jpg';
+import Amg from './images/amg.jpg';
 import img1 from './images/petrol.png';
 import img2 from './images/download.png';
 import img3 from './images/petrol.png';
+import facebook from "./images/facebook-logo.png";
+import tweeter from "./images/tweeter.png";
+import insta from "./images/inst.png";
+import youtube from "./images/youtube.png"
 import './footer.css';
 function Footer(){
         return (
@@ -78,6 +82,28 @@ function Footer(){
                         <li>Mercedes me Portal</li>
                             </ol>
                     </div>
+                </div>
+                <div className="frow4">
+                    <div className="header1">
+                    Stay informed
+                    </div>
+                    <hr />
+                    <p className="headline-info">Follow us and use the following social media platforms to get in contact with us and <br />
+                    to share your passion for the brand, products and services of Mercedes-Benz.</p>
+                    <ul className="social-media">
+                        <li>   <img src={facebook} alt="" /></li>
+                        <li>   <img src={tweeter} alt="" /></li>
+                        <li>   <img src={insta} alt="" /></li>
+                        <li>   <img src={youtube} alt="" /></li>
+                        </ul>
+                     <hr />
+                    <div className="brand-image">
+                    <div>   <img src={Amg} alt="" /></div>
+                        <div className="daimler">   <img src={Daimler} alt="" /></div>
+                        <div>   <img src={Smart} alt="" /></div>
+                    </div>
+                    
+                    <hr />
                 </div>
                 
           </div>

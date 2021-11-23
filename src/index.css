@@ -1,8 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing:   border-box;
-  overflow-x: ;
+  box-sizing: border-box;
+  overflow-x:  ;
   border: ;
   
 }
@@ -11,6 +11,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 code {

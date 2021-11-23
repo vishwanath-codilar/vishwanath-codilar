@@ -4,7 +4,7 @@
     display: flex;
     height: 100px;    
     width: 100%;
-    position: ;
+    position: sticky;
     z-index: 9999;
     overflow: hidden;
 }

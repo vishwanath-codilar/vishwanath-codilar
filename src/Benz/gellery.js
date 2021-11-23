@@ -77,15 +77,17 @@ function Gellery(){
                  </div>
                  <div className="col8"><img src={im9} alt="" />
                  <div className="caption">
-                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
-                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        Manufacturer’s expert assessment. 
+            
+                    <p className="sub-caption">The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class...</p>
                         </div>
                  
                  </div>
                  <div className="col9"><img src={im10} alt=""/>
                  <div className="caption">
-                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
-                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                       Mercedes-EQ and SK Gaming launch Project Avarosa. 
+            
+                    <p className="sub-caption">Mercedes-Benz has been a partner of the Esports organization SK Gaming since 2019, now they launch the Proj...</p>
                         </div>
                  </div>
               
@@ -101,8 +103,9 @@ function Gellery(){
                     </div>
                     <div className="col11"><img src={im12} alt="" />
                     <div className="caption">
-                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
-                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                         Special exhibition: The Fascination of the SL. 
+            
+                    <p className="sub-caption">Special exhibition “The Fascination of the SL – a Dream Car for 70 Years” from 22 October 2021 to 15 May 20....</p>
                         </div>
                     </div>
                    <div className="col12"> <img src={im13} alt="" />
@@ -115,14 +118,15 @@ function Gellery(){
                     <div className="col13"><img src={im14} alt="" />
                     
                     <div className="caption">
-                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
-                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+              Stylish and safe on the road.. 
+                    <p className="sub-caption">Wheels should just look good? Of course, appearance matters. However, many drivers don’t realize that wheel...</p>
                         </div>
                     </div>
                     <div className="col14"><img src={im15} alt="" />
                     <div className="caption">
-                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
-                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                       Concept EQG. 
+            
+                    <p className="sub-caption">The Concept EQG gives an outlook into the future of the G-Class. Find out more about the futuristic design ...</p>
                         </div>
                     </div>
                     
