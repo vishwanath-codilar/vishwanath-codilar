@@ -4,6 +4,7 @@ import Text from "./text.js";
 import Gellery from "./gellery";
 import Footer from "./footer";
 import './container.css';
+
 function Container(){
     return(
         <div className="container">
@@ -12,6 +13,7 @@ function Container(){
         <Text />
         <Gellery />
         <Footer />
+        
         </div>
     );
 }

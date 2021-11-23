@@ -72,43 +72,40 @@
     width: 100%;
 }
 
-.icons
-{
-    position:fixed;
-    top: 175px;
-    width: 100%;
-    display:  flex;
-    flex-direction: column;
-    float: right;
-    transition: 0.3s;
-}
- .icons a{
+
+
+ .icons {
     
-    background-color: black;
-    text-decoration: none;
-    padding: 10px  10px 10px 10px;
-    width: 270px;
-    letter-spacing: 1.5px;
-    margin: 1px;
-    margin-left: 1310px;
-     height: 20px;
-     color: white;
-     
+    display: grid;
+    position:fixed;
+    z-index: 9999;
+    top: 175px;
+    transition: 0.3s;
+    grid-row-gap: 1px;
+   }
+.icons div{
+    background-color: rgb(36, 32, 32);
+    height: 50px;
+    margin-left: 82em;
+    width: 220px;
+    color:white;
+    display: flex;
+    align-items: center;
 }
 .icons img{
-    width: 26px;
-    height: 26px;
-    padding-left: 2px;
-    padding-right: 10px;
-
+    width:35px;
+    height: 40px;
+    padding: 5px;
 }
-
-.icons a:hover{
-    margin-left: 1150px;
-
+.icons .conf{
+  
+   padding-left: 10px;
 }
 .icons .hide{
     display: none;
+}
+.icons div:hover{
+    margin-left: 72em ;
 }
 .search-bar{
     width: 100%;
@@ -131,43 +128,57 @@
 .s-text{
     display: none;
 }
-@media screen and (max-width: 780px){
-    .icons{
-        position: fixed;
-        display: none;
-        flex-direction: row;
-        width: 100% ;
-        padding-top: 2px;
-        top: 90%;
-        height: 60px;
-        background-color: black;
-        
-    }
-    .icons a{
-        position: relative;
-        display: flex;
+@media screen and (max-width: 600px){
+     .icons{
+         grid-template-columns: repeat(3,1fr);
+         margin: 0;
+         width: 100%;
+         background-color: black;
+         grid-gap: 2px;
+         top: 92%;
+     }
+     .icons div{
+        background-color: rgb(36, 32, 32);
+        margin: 5px;
+        margin-left: 0;
+        width: 100%;
         flex-direction: column;
-        width: 25%;
-          text-align: center;
-         height: 35px;
-        background-color: rgb(68, 65, 65);
-        margin-left: 0.01em;
-        margin-right: 3px;
-        margin-top: 5px;
-        font-size: 12px;
-    }
-    .icons a img{
-        
-        padding-left: 67px;
-        padding-bottom: 5px;
+        text-align: center;
+        border-radius: 2px;
+     }
+     .icons .conf{
+        padding-top: 4px;
+       
+     }
+    .icons .hide{
+        display: block;
     }
     .icons .show{
         display: none;
-    }
-    .icons .hide{
-        display: block;
     }
     input{
         width: 98%;
     }
 }
+@media  (min-width: 768px) and (max-width: 1024px){
+    .icons div{
+       
+        margin-left: 45.5em;
+       
+    }
+    .icons div:hover{
+        margin-left: 36em;
+    }
+ }
+ @media  (min-width: 1024px) and (max-width: 1365px){
+    .icons div{
+       
+        margin-left: 61.4em;
+       
+    }
+    .icons div:hover{
+        margin-left: 52em;
+ 
+    }
+ }
+   

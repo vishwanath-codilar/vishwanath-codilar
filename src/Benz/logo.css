@@ -3,18 +3,17 @@
     display: flex;
     margin-bottom: 13px;
     cursor: pointer;
-    
+     padding-top: 20px;
+     padding-left: 40px;
 }
 .nav-bar .logo img{
     width: 60px;
     height: 60px;
-    padding-top: 13px;
-    padding-left: 50px;
-    padding-bottom: 9px;
+    
 }
 .nav-bar .text{
     padding-left: 50px;
-    padding-top: 60px;
+    padding-top: 40px;
     font-size: 17px;
     font-family: lucida, Arial, Helvetica, sans-serif;
 }
@@ -29,9 +28,7 @@
     .nav-bar .logo img{
         width: 40px;
         height: 40px;
-        padding-top: 17px;
-        padding-left: 20px;
-        padding-bottom: 3px;
+     
     }
     .nav-bar .text{
         padding-left: 30px;

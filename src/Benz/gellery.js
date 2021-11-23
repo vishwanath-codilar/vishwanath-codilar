@@ -16,41 +16,121 @@ import im15 from './images/14.webp';
 import './gellery.css';
 function Gellery(){
     return(
-          <>
-           <div className="gellary">
+         
+           
                 <div className="row1">
-                    <span className="col1"><img src={im1} alt="" />
-                +
-                    </span>
-                    <span className="col2"><img src={im3} alt="" />
-                        <img src={im4} alt="" />
-                    </span>
-                </div>
-                   <div className="row2">
-                    <span className="col1"><img src={im5} alt="" /></span>
-                    <span className="col2"><img src={im6} alt="" /></span>
-                    <span className="col3"><img src={im7} alt="" /></span>
-                   </div>
+                    <div className="col1">
+                         <img src={im1} alt=""  />
+                         <div className="caption">
+                        The  Mercedes-AMG SL
+                        <p className="sub-caption">There is no end to the fascination of the Mercedes-Benz SL: each generation is a chapter in this tradition ...</p>
+                        </div>
+                    </div>
+                    <div className="col2"><img src={im3} alt="" />
+                    <div className="caption">
+                        League of Legends World Championship Ring. 
+                         <p className="sub-caption">TMercedes-EQ and Riot Games create Championship Ring for the Worlds – for the first time in LoL Esports hist...</p>
+                        </div>
+                    </div>
+                   
+                   
+                   <div className="col3"> <img src={im4} alt="" />
+                   <div className="caption">
+                        Time for a new era: The new EQS. 
+             
+                         <p className="sub-caption">TIt is time for a new era. Join us on major steps into a world of progressive luxury and innovation, design ...</p>
+                        </div></div>
+                
+                    
+                     <div className="col4"><img src={im5} alt="" />
+                     <div className="caption">
+                        Time for a new era: The new EQS. 
+             
+                         <p className="sub-caption">TIt is time for a new era. Join us on major steps into a world of progressive luxury and innovation, design ...</p>
+                        </div>
+                     </div>
+                    
+                    <div className="col5"><img src={im6} alt="" />
+                    <div className="caption">
+                        
+                    Hidden Heroes at Studio Odeonsplatz by Mercedes-Benz. 
             
-                <div className="row2">
-                 <span className="col1"><img src={im8} alt="" /></span>
-                 <span className="col2"><img src={im9} alt="" /></span>
-                 <span className="col3"><img src={im10} alt=""/></span>
-                </div>
-                <div className="row1">
-                    <span className="col1"><img src={im11} alt="" /></span>
-                    <span className="col2"><img src={im12} alt="" />
-                        <img src={im13} alt="" />
-                    </span>
-                </div>
-                <div className="row2">
-                    <span className="col1"><img src={im14} alt="" /></span>
-                    <span className="col2"><img src={im15} alt="" /></span>
-                    <span className="col3"><img src="" alt="" /></span>
+             
+                         <p className="sub-caption">Beyond the visible....</p>
+                        </div>
+                    </div>
+                    <div className="col6"><img src={im7} alt="" />
+                    <div className="caption">
+                    Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+            
+             
+                         <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations</p>
+                        </div>
+                    </div>
+                  
+           
+                 <div className="col7"><img src={im8} alt="" />
+                 <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                 </div>
+                 <div className="col8"><img src={im9} alt="" />
+                 <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                 
+                 </div>
+                 <div className="col9"><img src={im10} alt=""/>
+                 <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                 </div>
+              
+                
+                 
+              
+                    <div className="col10"><img src={im11} alt="" />
+                    <div className="caption">
+                        The EQS electrifies the 2021 Laver Cup in Boston. 
+            
+                    <p className="sub-caption">The Laver Cup, initiated by Mercedes-Benz Brand Ambassador Roger Federer, can finally be staged again this ....</p>
+                        </div>
+                    </div>
+                    <div className="col11"><img src={im12} alt="" />
+                    <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                    </div>
+                   <div className="col12"> <img src={im13} alt="" />
+                   <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
                    </div>
-                      
-              </div>   
-          </>
+               
+                    <div className="col13"><img src={im14} alt="" />
+                    
+                    <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                    </div>
+                    <div className="col14"><img src={im15} alt="" />
+                    <div className="caption">
+                        Campaigns at Studio Odeonsplatz by Mercedes-Benz. 
+                    <p className="sub-caption">Constantly changing campaigns, exclusive themed worlds and cutting-edge installations.</p>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
+              
+
+          
     );
 }
 export default Gellery;

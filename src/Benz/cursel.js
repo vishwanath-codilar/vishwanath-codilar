@@ -33,9 +33,21 @@ function Carousel(){
                 
             </div>
             <div className="icons">
-            <a href="#"> <img src={image5} alt="" /><span>Product page</span></a>
-             <a href="#"> <img src={image6} alt=""/>Configurator</a>
-            <a><img src={image7} alt="" /><span className="hide">Share</span><span className="show"><img src={image8} alt="" /><img src={image9} alt="" /></span></a>
+                <div className="icon1"> <a href="#"> <img src={image5} alt="" /></a>
+                      <a    className="conf">Product page</a>
+                </div>
+             <div className="icon2">
+                 <a href="#"> <img src={image6} alt=""/></a>
+                       <a className="conf">Configurator</a>
+                </div>
+           <div className="icon3"> 
+                <a>
+                    <img src={image7} alt="" /> </a>
+                        <span className="hide">Share</span>
+                          <span className="show"><img src={image8} alt="" /><img src={image9} alt="" />
+                          </span>
+               
+            </div>
             </div>
         </div>
         <div class="search-bar">

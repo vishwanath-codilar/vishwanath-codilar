@@ -7,7 +7,7 @@ import m6 from './images/ploay.jpg';
 import './text.css';
 function Text(){
     return(
-        <>
+        <div className="text">
          <div className="container-2">
                   <div className="inner">
                       <h1>Welcome to the Mercedes-Benz international <br />website.</h1>
@@ -18,16 +18,17 @@ function Text(){
                   </div>
                   
               </div> 
-              <div class="links">
-                  <div class="l"><span class="col1"><img src={m1} alt="" /></span><span class="col2"> <img src={m2} alt="" /></span></div>
-                         <div> <span class="col3"><img src={m3} alt="" /></span></div>
+              <div className="links">
+                  <span className="col1"><img src={m1} alt="" /></span>
+                  <span className="col2"> <img src={m2} alt="" /></span>
+                 <span className="col3"><img src={m3} alt="" /></span>
                         </div>
               <div className="container-3">
                   <button> <img src={m4} alt="" /> <a>News</a></button>
                   <button><img src={m5} alt="" /><a>Popular</a></button>
                   <button><img src={m6} alt="" /><a>Video</a></button>
               </div> 
-        </>
+        </div>
     );
 }
 export default Text;

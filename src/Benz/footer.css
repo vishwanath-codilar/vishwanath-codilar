@@ -45,13 +45,13 @@ padding-top: 30px;
 .frow3 .hr1{
  border: 0.01px solid rgb(128, 125, 125);
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1023px){
   .frow3{
   
     display: flex;
     flex-direction: column;
     margin-top: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    
    
   
   }
@@ -64,3 +64,4 @@ padding-top: 30px;
    
   }
 }
+

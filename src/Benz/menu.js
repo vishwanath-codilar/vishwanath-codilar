@@ -10,14 +10,14 @@ function Menu(){
                        <span className="d">Deutsch</span>
                    </div>
                 <div className="lower">
-                <a href="#"><img src={imge2} class="img2" alt="" /></a>
+                <a href="#"><img src={imge2} className="img2" alt="" /></a>
                     <input type="checkbox" id="check" />
-                       <label for="check" class="checkbtn"><img src={imge3} alt="" /></label>
+                       <label for="check" className="checkbtn"><img src={imge3} alt="" /></label>
                     <ul>
                            <li>Company
                             
                         </li>
-                           <li>Vechicnavbtnles</li>
+                           <li>Vehicles</li>
                            <li>Design</li>
                            <li>Innovation</li>
                            <li>Museum & History</li>
